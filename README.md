@@ -22,6 +22,8 @@ var mutexTimeInSeconds = 10;
 
 // initialize module
 mcm.init(mongooseConnectionString, mutexTimeInSeconds);
+// or use 30 secs by default
+// mcm.init(mongooseConnectionString);
 
 // function to be tested
 function testFunc() {

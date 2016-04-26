@@ -1,6 +1,6 @@
 {
   "name": "mongoose-crontab-mutex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple wrapper for mongoose-mutex and cron packages",
   "main": "index.js",
   "repository": {
