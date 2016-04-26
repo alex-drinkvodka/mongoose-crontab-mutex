@@ -1,21 +1,4 @@
-Mongoose crontab mutex
-======================
-
-This package is a simple wrapper for mongoose-mutex and cron packages from npm.
-
-Installation
-============
-
-```
-npm install mongoose-crontab-mutex --save
-```
-
-Usage
-======================
-
-
-```
-var mcm = require('mongoose-crontab-mutex');
+var mcm = require('./index');
 
 var mongooseConnectionString = 'mongodb://localhost/exampleMutexDb';
 var mutexTimeInSeconds = 10;
@@ -32,5 +15,3 @@ function testFunc() {
 var mutexId = 'test';
 var crontab = '* * * * * *';
 mcm.main(testFunc, mutexId, crontab);
-```
-

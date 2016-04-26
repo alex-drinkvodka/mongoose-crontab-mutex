@@ -1,11 +1,8 @@
 {
   "name": "mongoose-crontab-mutex",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple wrapper for mongoose-mutex and cron packages",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alex-drinkvodka/mongoose-crontab-mutex.git"
@@ -15,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/alex-drinkvodka/mongoose-crontab-mutex/issues"
   },
-  "homepage": "https://github.com/alex-drinkvodka/mongoose-crontab-mutex#readme"
+  "homepage": "https://github.com/alex-drinkvodka/mongoose-crontab-mutex#readme",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "mongoose": "^4.4.13",
+    "mongoose-mutex": "^0.2.2"
+  }
 }
